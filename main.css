@@ -1,0 +1,87 @@
+
+*{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: "Comic Neue", sans-serif;
+    font-weight: 100;
+    font-size: 1.15em;
+    font-variant: small-caps;
+    
+
+
+}
+
+
+body{
+    background-image: url(/Imagens/fundoblackpantherborrado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+  }
+  
+
+h1{
+    font-family: "Wind Song", sans-serif;
+    display:flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.textoprincipal
+{
+    display: flex;
+     margin: auto;
+
+    flex-direction: column ;
+    justify-content: center; 
+    
+    
+    background-color: rgba(0,0,0, 0.8);
+    color: white;
+    padding: 2em;
+    
+width: 80%;
+padding: 20px;
+text-align: justify;
+
+}
+
+
+
+.escolhapersonagens
+{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+   background-color: rgba(0,0,0, 0.4);
+
+    padding: 2em;
+    margin-top: 5em;
+
+
+}
+
+.botaodeescolhapersonagem{
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+
+ 
+
+ 
+}
+
+
+.fotopersonagem img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    max-width: 175px;
+    max-height: 175px;
+
+    
+}
