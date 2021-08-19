@@ -2,7 +2,7 @@ function redirecionar(opcao1, opcao2) {
     var escolha;
   
     do {
-      escolha = Number(prompt('Faça sua escolha:'));
+      escolha = Number(prompt('Digite 1 ou 2 para escolher:'));
   
       if (escolha === 1) {
         location.replace(opcao1);
