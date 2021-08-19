@@ -21,7 +21,14 @@
 </head>
 
 <body>
-
+    <audio autoplay id="myaudio">
+        <source src="./fundoprincipal.mp3" type="audio/mpeg">
+      </audio>
+    
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+      </script>
     <h1>O Casamento do Século</h1>
 
    <section class="textoprincipal">
@@ -59,13 +66,6 @@
 
 
 
-   <audio autoplay id="myaudio">
-    <source src="./fundoprincipal.mp3" type="audio/mpeg">
-  </audio>
 
-  <script>
-    var audio = document.getElementById("myaudio");
-    audio.volume = 0.1;
-  </script>
 </body>
 </html>
