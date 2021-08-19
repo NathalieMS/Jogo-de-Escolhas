@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <script src="../jsglobal.js"></script>
+
     <link rel="stylesheet" type="text/css" href="../main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,17 +15,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Great+Vibes&family=MonteCarlo&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="/Imagens/iconepantera.svg"/>
 
     <title>O Casamento do Século</title>
 </head>
 
 <body>
-
+    <audio autoplay id="myaudio">
+        <source src="http://cutyt.westeurope.cloudapp.azure.com/8WSKlDpGmI4_mp3.mp3" type="audio/mpeg">
+      </audio>
+    
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+      </script>
     <h1>O Casamento do Século</h1>
 
    <section class="textoprincipal">
        <p>Finalmente chegou o dia de completar uma das maiores tarefas como um Rei, casar-se com uma Rainha.</p>
-       <p>Ainda com um pouco de dor de cabeça dos drinks com Luke da noite anterior, o futuro noivo dirige seu conversível favorito em direção ao alfaiate real. A Lamborghini de pintura brilhante e escura como a noite desliza suavemente nas ruas pavimentas do centro de Wakanda. Rodas rebaixadas, suspensão pneumática, o tunado italiano levou mais de 2 anos e 15 milhões de dólares para ficar pronto.</p>
+       <p>Ainda com um pouco de dor de cabeça dos drinks com Luke da noite anterior, o futuro noivo dirige seu conversível favorito em direção ao alfaiate real para buscar seu traje cerimonial que precisou de ajustes de última hora.</p>
+       <p>A Lamborghini de pintura brilhante e escura como a noite desliza suavemente nas ruas pavimentas do centro de Wakanda. Rodas rebaixadas, suspensão pneumática, o tunado italiano levou mais de 2 anos e 15 milhões de dólares para ficar pronto.</p>
        <p>Recebendo uma ligação pelo computador de bordo integrado, T'Challa...</p>
         <br>
        <p>1 - Recusa a chamada, afinal é o dia de seu casamento e o tempo está apertado, sem margem para erros. Se ousar chegar atrasado na cerimônia, é capaz de Ororo lançar um raio na sua cabeça. </p>
@@ -34,9 +45,10 @@
     <br>
 
 </section> 
-   <section class="facasuaescolha">
-       <button class=""> Faça sua escolha</button>
-   </section>
+
+<section class="facasuaescolha">
+    <button class="botaoscript" onclick="redirecionar('gameoverfase1tchalla.html','fase2tchalla.html')"> Faça sua escolha</button>
+</section>
       
 </body>
 </html>

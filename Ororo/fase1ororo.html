@@ -7,37 +7,48 @@
 
     <link rel="stylesheet" type="text/css" href="../main.css">
 
+    <script src="../jsglobal.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Great+Vibes&family=MonteCarlo&display=swap" rel="stylesheet">
 
+    <link rel="icon" type="image/png" href="/Imagens/iconepantera.svg"/>
 
     <title>O Casamento do Século</title>
 </head>
 
 <body>
-
+    <audio autoplay id="myaudio">
+        <source src="http://cutyt.westeurope.cloudapp.azure.com/8WSKlDpGmI4_mp3.mp3" type="audio/mpeg">
+      </audio>
+    
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.1;
+      </script>
     <h1>O Casamento do Século</h1>
 
    <section class="textoprincipal">
        <p>Nada como uma boa noite de sono após um dia de compras com Kitty. O dia amanhece lindo, ensolarado, assim como foi minunciosamente planejado pela poderosa mutante.</p>
        <p>A futura noiva se levanta da cama, abre as cortinas para deixar a leve brisa perfumada entrar. Contemplando a bela vista de seu jardim, Ororo é surpreendida por 3 fortes golpes na porta de sua suíte nupcial.</p>
-       <p>Visivelmente apreensiva, Nareema reporta que o ônibus de Ainet, mãe adotiva de Ororo, foi interceptado por uma milícia de sequestradores.</p>
-       <p>Droga! Aquela velha feiticeira insistiu em vir do Egito para Wakanda de ônibus por não confiar em aviões, recusando até mesmo o X-jato.</p>
-       <p>E agora, o que fazer</p>
+       <p>Abrindo a porta, Ororo se depara com uma pessoa que não esperava, Erik Killmonger. O primo distante e problemático de seu noivo, que já até tentou matá-lo, foi influenciado pelo cessar-fogo da Guerra Civil. Deixando os conflitos de lado, o primo veio prestigiar a cerimônia, afinal família é mais importante.</p>
+       <p> O super-humano reporta que o ônibus de Ainet, mãe adotiva de Ororo, foi interceptado por uma milícia de sequestradores.</p>
+       <p>Droga! Aquela velha feiticeira insistiu em vir do Quênia para Wakanda de ônibus por não confiar em aviões, recusando até mesmo o X-jato.</p>
+       <p>E agora, o que fazer? É possível acreditar em Killmonger, afinal se o casamento não acontecer, o primo ainda tem chances de reclamar o posto de Rei de Wakanda por T'Challa não ser um homem casado.</p>
         <br>
-       <p>1 - Opção 1</p>
+       <p>1 - Confiar em Killmonger, já que todos acordaram em um cessar-fogo e Erick sabe que T'Challa o mataria sem pensar duas vezes se envolver Ororo na briga dos dois.</p>
         <br>
-       <p>2 - Opção 2</p>
+       <p>2 - Duvidar da informação, afinal pode ser uma perigosa armadilha arquitetada por Killmonger, que nutre um ódio profundo pelo primo.</p>
 
 
     <br>
 
 </section> 
    <section class="facasuaescolha">
-       <button class="botaoscript"> Faça sua escolha</button>
+       <button class="botaoscript" onclick="redirecionar('fase2ororo.html','gameoverfase1ororo.html')"> Faça sua escolha</button>
    </section>
       
 </body>
