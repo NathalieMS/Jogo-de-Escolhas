@@ -14,7 +14,7 @@
 
 
 body{
-    background-image: url(/Imagens/fundoblackpantherborrado.png);
+    background-image: url('/Imagens/fundoblackpantherborrado.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
