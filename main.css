@@ -174,7 +174,10 @@ cursor: pointer;
     
 }
 .fotopersonagem img:hover{
-  transform: scale(1.2); }
+  transform: scale(1.2); 
+  filter:  grayscale(83%) opacity(75%);
+
+}
    
 .botaoscript{
  
@@ -193,6 +196,23 @@ cursor: pointer;
     background-color: rgba(0,0,0, 0.5);
      color:white;
 }
+
+#wrapper .descricaofoto {
+   
+    align-items: center;
+    position:relative;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 0.8em;
+    bottom:2px;
+    left:0px;
+    visibility:hidden;
+    }
+    
+    #wrapper:hover .descricaofoto {
+    visibility:visible;
+    }
 
 @media (max-width: 700px){
 
